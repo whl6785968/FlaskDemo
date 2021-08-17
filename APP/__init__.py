@@ -9,6 +9,7 @@ def create_app(env):
     app = Flask(__name__)
 
     app.config.from_object(envs.get(env))
+    app.config['JSON_AS_ASCII'] = False
     init_ext(app=app)
     init_view(app=app)
     init_api(app=app)
