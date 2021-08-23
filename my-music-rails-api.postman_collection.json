@@ -1,0 +1,1055 @@
+{
+	"variables": [],
+	"info": {
+		"name": "my-music-rails-api",
+		"_postman_id": "fa565e82-eb88-b24e-b289-537f4ef89335",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "用户详情",
+			"request": {
+				"url": "http://localhost:3000/v1/users/1.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "User",
+						"value": "2",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "k8e9e5QxXEkRCsRkc7iQpD_h8i4ttmMKvlAi501bvRw",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "52c83d4c-fa36-454a-a964-26115a32d209",
+					"name": "用户详情",
+					"originalRequest": {
+						"url": "http://localhost:3000/v1/users/1.json",
+						"method": "GET",
+						"header": [
+							{
+								"key": "User",
+								"value": "1",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "S4KvpJuWJ5j2-hOq0rwjGIr834bITHDKJJF5kWGh_OI",
+								"description": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wednesday, 20-Jun-18 20:40:07 CST",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"3cbb164cb67c956f2d3a37d3137bb91b\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "keep-alive",
+							"key": "keep-alive",
+							"value": "timeout=38",
+							"description": "Custom header"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-request-id",
+							"key": "x-request-id",
+							"value": "2ca847cf-eba3-49ea-bf47-dff986b5a0aa",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-runtime",
+							"key": "x-runtime",
+							"value": "0.626081",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Wed Jun 10 2020 09:34:26 GMT+0800 (China Standard Time)",
+							"hostOnly": true,
+							"httpOnly": false,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"value": "GA1.1.1056609240.1512909597",
+							"key": "_ga"
+						},
+						{
+							"expires": "Invalid Date",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"value": "RTFHc1JjSlRkOWhzamlqWTJzL216blZjWldQNWc5ZUFQWmlhUEprUlJVY3MrMkRsUm1ab09sVGw1QWNGL3h5K01yL0hLN05pa2VUY1FwVUM3eVBvRkowblh5VzFHRjN5SzFXU2IxejYvOVNTZ2VpeGQ5Ujd0QnpkZ3FHOVNudGFOa0laRnA2dHNXMktROFN0SGFKR2E5UFNhM0xtRk1lT0w1ODVDc0xGYzR0Z2x6TC9ReHhXZDJUeEdtY3R2SkJjM1hoVFRwQTJ4cHp3ellKeTA1bk5ZZ0I0eXRXRzJ1bFNJN2RIOXJhSTlRZUV2ZUltQWlpaXBack9CMklHUUhDTEhBMTF2cjE3Y29ZNG9TV1U3UEh5eHc9PS0tSDFheDVMcDFOOUhZL2d4dm1tbm5LQT09--164d1d5d016eeda45a5998d914ed9a05996c76a5",
+							"key": "_ixuea_web_session"
+						},
+						{
+							"expires": "Sat Jun 10 2028 23:22:36 GMT+0800 (China Standard Time)",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"value": "10dffa19-93ea-4e0e-8ebe-8e38596b07cc",
+							"key": "Idea-4f7fd95e"
+						},
+						{
+							"expires": "Invalid Date",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"value": "FEDAAF9386D62AB492DD6C88976D6683",
+							"key": "JSESSIONID"
+						},
+						{
+							"expires": "Invalid Date",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"value": "ec36f413-aa8c-4dce-8738-a622f9b9a510",
+							"key": "SESSION"
+						}
+					],
+					"responseTime": 673,
+					"body": "{\"data\":{\"id\":1,\"nickname\":\"smile\",\"avatar\":\"http://q.qlogo.cn/qqapp/101430237/CB856508131D00E815AF91192E0C06F6/100\",\"description\":null,\"followers_count\":0,\"followings_count\":1}}"
+				}
+			]
+		},
+		{
+			"name": "登录",
+			"request": {
+				"url": "http://192.168.100.103:3000/v1/sessions/",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "13141111111",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "QQ登录",
+			"request": {
+				"url": "http://localhost:3000/v1/sessions/",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "10",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "open_id",
+							"value": "1123343",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "nickname",
+							"value": "1434454",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "1343445",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "注册",
+			"request": {
+				"url": "http://localhost:3000/v1/users.json",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nickname",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "歌单列表",
+			"request": {
+				"url": "http://localhost:3000/v1/sheets/create.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "mNqoqG8fWT5Uxq7PsUnfik73nXcP2A91ZdbB9UlDdz8",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "歌曲列表",
+			"request": {
+				"url": "http://localhost:3000/v1/songs.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "歌单详情",
+			"request": {
+				"url": "http://localhost:3000/v1/sheets/1.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "hjbk0lb6R6HhuLSWxj1fkjBdtjRBGPnu6A_62U9AjBo",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "歌曲详情",
+			"request": {
+				"url": "http://localhost:3000/v1/songs/2.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "收藏",
+			"request": {
+				"url": "http://localhost:3000/v1/collections.json",
+				"method": "POST",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "hjbk0lb6R6HhuLSWxj1fkjBdtjRBGPnu6A_62U9AjBo",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sheet_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "取消收藏",
+			"request": {
+				"url": "http://localhost:3000/v1/collections/1.json",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "hjbk0lb6R6HhuLSWxj1fkjBdtjRBGPnu6A_62U9AjBo",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "收藏歌到歌单",
+			"request": {
+				"url": "http://localhost:3000/v1/contacts.json",
+				"method": "POST",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "xGVNEByVL_HQ4b_gq3S1vTjB62SbaHMOj245ab_mntg",
+						"description": ""
+					},
+					{
+						"key": "sheet_id",
+						"value": "1",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "song_id",
+						"value": "3",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sheet_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "song_id",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "取消收藏歌曲",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000/v1/contacts/1.json?sheet_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"contacts",
+						"1.json"
+					],
+					"query": [
+						{
+							"key": "sheet_id",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "hjbk0lb6R6HhuLSWxj1fkjBdtjRBGPnu6A_62U9AjBo",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sheet_id",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Au",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "创建歌单",
+			"request": {
+				"url": "http://localhost:3000/v1/sheets.json",
+				"method": "POST",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Z9V7qYOSJOtbtDUurnK49WbDEQYAFU0iaRAh8vByBtM",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "新建歌单",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "视频列表",
+			"request": {
+				"url": "http://localhost:3000/v1/videos.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "ocTyef8frS8RFzf1mrBvRdUb4tkAdeOSHo2jDMnWk9o",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "视频详情",
+			"request": {
+				"url": "http://localhost:3000/v1/videos/1.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "ocTyef8frS8RFzf1mrBvRdUb4tkAdeOSHo2jDMnWk9o",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "评论列表",
+			"request": {
+				"url": "http://api-dev-courses-misuc.ixuea.com/v1/comments.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Z9V7qYOSJOtbtDUurnK49WbDEQYAFU0iaRAh8vByBtM",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "8dab875f-2b0d-4a32-9fb1-bf4b604f88e3",
+					"name": "评论列表",
+					"originalRequest": {
+						"url": {
+							"raw": "http://localhost:3000/v1/comments.json?order=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"v1",
+								"comments.json"
+							],
+							"query": [
+								{
+									"key": "order",
+									"value": "10",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "User",
+								"value": "1",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Z9V7qYOSJOtbtDUurnK49WbDEQYAFU0iaRAh8vByBtM",
+								"description": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wednesday, 20-Jun-18 20:39:00 CST",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"af2358b359f50de12d85ca28c87c2487\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "keep-alive",
+							"key": "keep-alive",
+							"value": "timeout=38",
+							"description": "Custom header"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-request-id",
+							"key": "x-request-id",
+							"value": "c50965aa-835b-410e-b5da-e6093b586cc7",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-runtime",
+							"key": "x-runtime",
+							"value": "2.406071",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Wed Jun 10 2020 09:34:26 GMT+0800 (China Standard Time)",
+							"hostOnly": true,
+							"httpOnly": false,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"value": "GA1.1.1056609240.1512909597",
+							"key": "_ga"
+						},
+						{
+							"expires": "Invalid Date",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"value": "RTFHc1JjSlRkOWhzamlqWTJzL216blZjWldQNWc5ZUFQWmlhUEprUlJVY3MrMkRsUm1ab09sVGw1QWNGL3h5K01yL0hLN05pa2VUY1FwVUM3eVBvRkowblh5VzFHRjN5SzFXU2IxejYvOVNTZ2VpeGQ5Ujd0QnpkZ3FHOVNudGFOa0laRnA2dHNXMktROFN0SGFKR2E5UFNhM0xtRk1lT0w1ODVDc0xGYzR0Z2x6TC9ReHhXZDJUeEdtY3R2SkJjM1hoVFRwQTJ4cHp3ellKeTA1bk5ZZ0I0eXRXRzJ1bFNJN2RIOXJhSTlRZUV2ZUltQWlpaXBack9CMklHUUhDTEhBMTF2cjE3Y29ZNG9TV1U3UEh5eHc9PS0tSDFheDVMcDFOOUhZL2d4dm1tbm5LQT09--164d1d5d016eeda45a5998d914ed9a05996c76a5",
+							"key": "_ixuea_web_session"
+						},
+						{
+							"expires": "Sat Jun 10 2028 23:22:36 GMT+0800 (China Standard Time)",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": false,
+							"value": "10dffa19-93ea-4e0e-8ebe-8e38596b07cc",
+							"key": "Idea-4f7fd95e"
+						},
+						{
+							"expires": "Invalid Date",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"value": "FEDAAF9386D62AB492DD6C88976D6683",
+							"key": "JSESSIONID"
+						},
+						{
+							"expires": "Invalid Date",
+							"hostOnly": true,
+							"httpOnly": true,
+							"domain": "localhost",
+							"path": "/",
+							"secure": false,
+							"session": true,
+							"value": "ec36f413-aa8c-4dce-8738-a622f9b9a510",
+							"key": "SESSION"
+						}
+					],
+					"responseTime": 2621,
+					"body": "{\"meta\":{\"current_page\":1,\"next_page\":null,\"prev_page\":null,\"total_pages\":1,\"total_count\":5},\"data\":[{\"id\":1,\"content\":\"你好啊@smile 来参加这个话题吧@那年高中 这是评论内容\",\"likes_count\":0,\"user\":{\"id\":1,\"nickname\":\"smile\",\"avatar\":\"http://q.qlogo.cn/qqapp/101430237/CB856508131D00E815AF91192E0C06F6/100\"},\"created_at\":\"2018-06-17T07:57:21.000Z\"},{\"id\":2,\"content\":\"这事你怎么看\",\"likes_count\":0,\"user\":{\"id\":1,\"nickname\":\"smile\",\"avatar\":\"http://q.qlogo.cn/qqapp/101430237/CB856508131D00E815AF91192E0C06F6/100\"},\"parent\":{\"id\":1,\"content\":\"你好啊@smile 来参加这个话题吧@那年高中 这是评论内容\",\"likes_count\":0,\"user\":{\"id\":1,\"nickname\":\"smile\",\"avatar\":\"http://q.qlogo.cn/qqapp/101430237/CB856508131D00E815AF91192E0C06F6/100\"},\"created_at\":\"2018-06-17T07:57:21.000Z\"},\"created_at\":\"2018-06-17T07:57:22.000Z\"},{\"id\":3,\"content\":\"你好啊@smile 来参加这个话题吧@那年高中 这是评论内容\",\"likes_count\":0,\"user\":{\"id\":1,\"nickname\":\"smile\",\"avatar\":\"http://q.qlogo.cn/qqapp/101430237/CB856508131D00E815AF91192E0C06F6/100\"},\"created_at\":\"2018-06-17T07:57:22.000Z\"},{\"id\":4,\"content\":\"@liwei nihao\",\"likes_count\":0,\"user\":{\"id\":1,\"nickname\":\"smile\",\"avatar\":\"http://q.qlogo.cn/qqapp/101430237/CB856508131D00E815AF91192E0C06F6/100\"},\"created_at\":\"2018-06-17T12:35:55.000Z\"},{\"id\":5,\"content\":\"a\",\"likes_count\":0,\"user\":{\"id\":1,\"nickname\":\"smile\",\"avatar\":\"http://q.qlogo.cn/qqapp/101430237/CB856508131D00E815AF91192E0C06F6/100\"},\"created_at\":\"2018-06-20T05:45:50.000Z\"}]}"
+				}
+			]
+		},
+		{
+			"name": "喜欢评论",
+			"request": {
+				"url": "http://localhost:3000/v1/likes.json",
+				"method": "POST",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Z9V7qYOSJOtbtDUurnK49WbDEQYAFU0iaRAh8vByBtM",
+						"description": ""
+					},
+					{
+						"key": "comment_id",
+						"value": "1",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "comment_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "话题列表",
+			"request": {
+				"url": "http://localhost:3000/v1/topics.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "话题详情",
+			"request": {
+				"url": "http://localhost:3000/v1/topics/1.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "动态流",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000/v1/feeds.json?page=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"feeds.json"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "3",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "发布动态",
+			"request": {
+				"url": "http://localhost:3000/v1/feeds.json",
+				"method": "POST",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "2-NFW3xNUuaIIQBtxZQH8jbCZ8D4wc3uAPdZnOOtV3Q",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"content\": \"你好啊@smile 来参加这个话题吧@那年高中 这是动态内容,#最向往的城市# 这个话题,有图片\",\n  \"images\": [\n    \"assets/list1.jpg\",\n    \"assets/list1.jpg\",\n    \"assets/list1.jpg\"\n  ]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "我关注的人(好友)",
+			"request": {
+				"url": "http://localhost:3000/v1/users/1/following.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "UFQ4a5wc48jEU6ir45xpRf6db8Eff5sTUwDWgVyoh54",
+						"description": ""
+					},
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "关注我的人(粉丝)",
+			"request": {
+				"url": "http://localhost:3000/v1/users/1/followers.json",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "UFQ4a5wc48jEU6ir45xpRf6db8Eff5sTUwDWgVyoh54",
+						"description": ""
+					},
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "关注用户",
+			"request": {
+				"url": "http://localhost:3000/v1/relationships.json",
+				"method": "POST",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "UFQ4a5wc48jEU6ir45xpRf6db8Eff5sTUwDWgVyoh54",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "取消关注用户",
+			"request": {
+				"url": "http://localhost:3000/v1//relationships/2.json",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "2-NFW3xNUuaIIQBtxZQH8jbCZ8D4wc3uAPdZnOOtV3Q",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "热门搜索",
+			"request": {
+				"url": "http://localhost:3000/v1/searches/hots.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "搜索提示",
+			"request": {
+				"url": "http://localhost:3000/v1/searches/prompts.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "歌曲搜索",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000/v1/searches/songs.json?title=爱",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"searches",
+						"songs.json"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "爱",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
